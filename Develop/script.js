@@ -18,6 +18,10 @@ $(function () {
   var hour3 = $('#hour-3');
   var hour4 = $('#hour-4');
   var hour5 = $('#hour-5');
+
+  $('.fas fa-save').on('click', function () {
+  localStorage.setItem('#hour-9', textArea );
+  });
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
