@@ -7,3 +7,4 @@ code that will give the user an opportunity to have a interactive schedule for t
 [image of site](image.png)
 
 # Deployed site
+https://shibiiii.github.io/Work-day-scheduler/
