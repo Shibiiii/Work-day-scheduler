@@ -26,8 +26,18 @@ $(function () {
   var hour4 = $('#hour-4');
   var hour5 = $('#hour-5');
 
-  $('.fas fa-save').on('click', function () {
-  localStorage.setItem('#hour-9', textArea );
+  var saveBtn = $('.fas fa-save');
+
+  saveBtn.on('click', function () {
+  localStorage.setItem( hour9, textArea );
+  localStorage.setItem( hour10, textArea );
+  localStorage.setItem( hour11, textArea );
+  localStorage.setItem( hour12, textArea );
+  localStorage.setItem( hour1, textArea );
+  localStorage.setItem( hour2, textArea );
+  localStorage.setItem( hour3, textArea );
+  localStorage.setItem( hour4, textArea );
+  localStorage.setItem( hour5, textArea );
   });
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
